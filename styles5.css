@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4a86e8;
+    padding: 8px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-right: 120px;
+    padding-top: 15px;
+}
+.header__link {
+    margin-left: 40px;
+    color: #fff;
+}
+.filter {
+    margin-left: 50px;
+    margin-bottom: 30px;
+   
+}
+.filter__div {
+    margin-left: 280px;
+    display: flex;
+}
+.filter__parrafoDos, .filter__inputUno, .filter__parrafoTres, .filter__inputDos {
+    margin-left: 20px;
+    margin-top: -30px;
+}
+.filter__titulo, .filter__parrafoUno {
+    margin-top: 20px;
+}
+.filter__button {
+    margin-left: 60%;
+    width: 400px;
+    display: flex;
+    color:#fff;
+    margin-top: -35px;
+}
+.filter__pdf, .filter__reporte {
+    margin-left: 50px;
+    background-color: #4a86e8;
+    color: #fff;
+    border-color: #fff;
+    padding: 11px;
+}
+.report {
+    margin-left: 60px;
+    border: 1px solid grey;
+    height: 300px;
+    width: 1000px;
+}
+.report__titulo {
+    padding-left: 30px;
+    width: 800px;
+    margin-bottom: 50px;
+    width: 600px;
+}
+.report__data {
+        display: flex;
+}
+.report__table td, th {
+    width: 200px;
+    padding-left: 30px;
+    text-align: left;
+}

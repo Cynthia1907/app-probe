@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4a86e8;
+    padding: 8px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-right: 120px;
+    padding-top: 15px;
+}
+li, a {
+    margin-left: 40px;
+    color: #fff;
+}
+.main {
+    text-align: center;
+    margin-top: 80px;
+}
+.main__parrafo, .main__text, .main__pasword {
+    margin-bottom: 25px;
+}
+.main__text, .main__pasword {
+    width: 230px;
+    height: 28px;
+    padding-left: 10px;
+    border: 2px solid #4a86e8;
+    border-radius: 5px;
+}
+button {
+    width: 130px;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4a86e8 ;
+    color: #fff;
+    border-color: #4a86e8;
+}
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles5.css">
+</head>
+<body>
+    <header class="header">
+        <img src="imagenes/logo.PNG" alt="">
+        <ul>
+            <li><a class="header__link" href="#">INICIO</a></li>
+            <li><a class="header__link" href="#">CARGA</a></li>
+            <li><a class="header__link" href="#">REPORTES</a></li>
+        </ul>
+    </header>
+    <section class="filter">
+        <h1 class="filter__titulo">REPORTE CALIBRACION DEL PROBE</h1>
+        <p class="filter__parrafoUno">Seleccione rango de fechas para<br> generar el reporte</p>
+        <div class="filter__div">
+            <p class="filter__parrafoDos">Desde</p>
+            <input class="filter__inputUno" type="date">
+            <p class="filter__parrafoTres">Hasta</p>
+            <input class="filter__inputDos" type="date">
+        </div>
+        <div class="filter__button">
+            <button class="filter__reporte">Ver Reporte</button>
+            <button class="filter__pdf">Descargar pdf</button>
+        </div>
+    </section>
+    <section class="report">
+        <img class="report__imagenes" src="imagenes/logo2.PNG" alt="">
+        <div class="report__data">
+            <h1 class="report__titulo">REPORTE CALIBRACION DE INSTRUMENTO SIMPLE PROBE</h1>
+            <div class="report__parrafos">
+                <p class="report__parrafoUno"><strong>Fecha:</strong> 05.01.2022</p>
+                <p class="report__parrafoDos"><strong>Cuenta:</strong> Aramark Clinica Avansalud</p>
+            </div>
+        </div>
+        <table class="report__table">
+            <tr>
+                <th>Fecha</th>
+                <th>Hora</th>
+                <th>Temperatura</th>
+                <th>Encargado</th>
+            </tr>
+            <tr>
+                <td>04/01/2022</td>
+                <td>12:54 hrs</td>
+                <td>0.2°C</td>
+                <td>Jaime Perez</td>
+            </tr>
+            <tr>
+                <td>06/01/2022</td>
+                <td>18:58 hrs</td>
+                <td>-1.4°C</td>
+                <td>Carolina Gutierrez</td>
+            </tr>
+            <tr>
+                <td>09/01/2022</td>
+                <td>10:03 hrs</td>
+                <td>2.3°C</td>
+                <td>Jaime Perez</td>
+            </tr>
+            <tr>
+                <td>11/01/2022</td>
+                <td>13:36 hrs</td>
+                <td>2.8°C</td>
+                <td>Alejandra Nuñez</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>

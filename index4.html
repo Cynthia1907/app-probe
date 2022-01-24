@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+    <header class="header">
+        <img src="imagenes/logo.PNG" alt="">
+        <ul>
+            <li><a class="header__link" href="#">INICIO</a></li>
+            <li><a class="header__link" href="#">CARGA</a></li>
+            <li><a class="header__link" href="#">REPORTES</a></li>
+        </ul>
+    </header>
+    <section class="filter">
+        <h1 class="filter__titulo">REPORTE DIARIO MEDICION DE TEMPERATURA</h1>
+        <p class="filter__parrafo">Seleccione el dia para generar reporte</p>
+        <input class="filter__input" type="date">
+        <button class="filter__button">Ver Reporte</button>
+        <button class="filter__pdf">Descargar pdf</button>
+    </section>
+    <section class="report">
+        <img class="report__imagenes" src="imagenes/logo2.PNG" alt="">
+        <div class="report__data">
+            <h1 class="report__titulo">REPORTE DIARIO MEDICION DE TEMPERATURA PREPARACIONES</h1>
+            <div class="report__parrafos">
+                <p class="report__parrafoUno"><strong>Fecha:</strong> 05.01.2022</p>
+                <p class="report__parrafoDos"><strong>Cuenta:</strong> Aramark Clinica Avansalud</p>
+            </div>
+        </div>
+        <table class="report__table">
+            <tr>
+                <th>Item</th>
+                <th>Hora</th>
+                <th>Temperatura</th>
+            </tr>
+            <tr>
+                <td>Pollo arvejado</td>
+                <td>12:54 hrs</td>
+                <td>68°C</td>
+            </tr>
+            <tr>
+                <td>Arroz graneado</td>
+                <td>12:58 hrs</td>
+                <td>63°C</td>
+            </tr>
+            <tr>
+                <td>Cazuela vacuno</td>
+                <td>13:03 hrs</td>
+                <td>70°C</td>
+            </tr>
+            <tr>
+                <td>Charquican</td>
+                <td>13:36 hrs</td>
+                <td>66°C</td>
+            </tr>
+            <tr>
+                <td>Lentejas con arroz</td>
+                <td>13:42 hrs</td>
+                <td>67°C</td>
+            </tr>
+        </table>
+        <p class="parrafo"><strong>Encargado:</strong>Jaime Perez</p>
+    </section>
+       
+</body>
+</html>
